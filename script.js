@@ -6,5 +6,5 @@ function textcolorrevert(x) {
 };
 
 function fitscreen() {
-  document.getElementById("allcontent").style.height = window.screen.height + "px";
+  document.getElementById("allcontent").style.height = window.screen.height - 100 + "px";
 }
